@@ -13,7 +13,7 @@
     </modules>
 
     <name>${project.artifactId}</name>
-    <url>https://github.com/keqingyuan/onion-expands</url>
+    <url>https://github.com/keqingyuan/onion-easy-orm</url>
     <description>一个简单的orm工具</description>
 
     <licenses>
