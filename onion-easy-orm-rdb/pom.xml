@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>onion-easy-orm</artifactId>
+        <groupId>cc.kebei</groupId>
+        <version>3.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>onion-easy-orm-rdb</artifactId>
+    <description>easyorm关系型数据库实现,支持h2,Oracle,Mysql,PostgreSQL</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>cc.kebei</groupId>
+            <artifactId>onion-easy-orm-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>cc.kebei</groupId>
+            <artifactId>onion-expands-script</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>sqljdbc4</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
