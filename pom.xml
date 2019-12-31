@@ -268,7 +268,7 @@
             <dependency>
                 <groupId>com.oracle</groupId>
                 <artifactId>ojdbc14</artifactId>
-                <version>10.2.0.3.0</version>
+                <version>10.2.0.5.0</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
@@ -397,12 +397,34 @@
                 <enabled>true</enabled>
             </snapshots>
         </repository>
+        <repository>
+            <id>jeecg</id>
+            <name>jeecg</name>
+            <url>http://maven.jeecg.org/nexus/content/repositories/jeecg/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
+            <id>central</id>
+            <name>aliyuncentral</name>
+            <url>https://maven.aliyun.com/repository/central/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+        <pluginRepository>
             <id>spring</id>
             <name>aliyunspring</name>
-            <url>https://maven.aliyun.com/repository/spring</url>
+            <url>https://maven.aliyun.com/repository/spring/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
