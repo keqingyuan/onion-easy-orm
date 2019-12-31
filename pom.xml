@@ -4,7 +4,7 @@
     <groupId>cc.kebei</groupId>
     <artifactId>onion-easy-orm</artifactId>
     <packaging>pom</packaging>
-    <version>3.0.0</version>
+    <version>3.0.1-SNAPSHOT</version>
     <modules>
         <module>onion-easy-orm-core</module>
         <module>onion-easy-orm-rdb</module>
@@ -37,7 +37,7 @@
         <connection>scm:git:https://github.com/keqingyuan/onion-easy-orm.git</connection>
         <developerConnection>scm:git:https://github.com/keqingyuan/onion-easy-orm.git</developerConnection>
         <url>https://github.com/keqingyuan/onion-easy-orm</url>
-        <tag>onion-easy-orm-3.0.0</tag>
+        <tag>${project.version}</tag>
     </scm>
 
     <properties>
